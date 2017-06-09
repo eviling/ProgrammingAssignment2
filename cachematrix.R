@@ -34,8 +34,6 @@ cacheSolve <- function(x, ...) {
   inv
 }
 
-library()
-
 #EXAMPLE
 a <- matrix(c(1,2,3,0,1,4,5,6,0), ncol = 3, byrow = T)
 z <- makeCacheMatrix(a)
